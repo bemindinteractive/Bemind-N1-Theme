@@ -194,6 +194,7 @@ rgba(253,253,253,0.75) 100%);
 
 //=============================== Components ===========================//
 
+
 //== Toolbar
 @toolbar-background-color: @white;
 
@@ -205,10 +206,10 @@ rgba(253,253,253,0.75) 100%);
 
 //== Thread List (e.g, `.list-group-item`, `.list-item`)
 @list-bg:                  @white;
-@list-border:              #EAEAEA;
-@list-hover-bg:            lighten( #FFD850, 30% );
+@list-border:              @border-color-primary;
+@list-hover-bg:            @component-active-color;
 @list-focused-color:       #5B400C;
-@list-focused-bg:          @component-active-color;
+@list-focused-bg:          lighten(@component-active-color, 20%);
 @list-focused-border:      @list-focused-bg;
 @list-selected-color:      inherit;
 @list-selected-bg:         mix(@component-active-color, @list-bg, 17%);
