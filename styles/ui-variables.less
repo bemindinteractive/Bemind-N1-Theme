@@ -31,8 +31,8 @@
 @blue-light:   #009ec4;
 
 //== Color Descriptors
-@accent-primary:      @blue;
-@accent-primary-dark: @blue-dark;
+@accent-primary:      #FFE14D;
+@accent-primary-dark: darken( @accent-primary, 10%);
 
 @background-primary:     @white;
 @background-off-primary: #fdfdfd;
@@ -79,6 +79,7 @@ rgba(253,253,253,0.75) 100%);
 @text-color-search-current-match: #ff8b1a;
 
 @font-family-sans-serif:  "Montserrat", "Helvetica", sans-serif;
+//@font-family-sans-serif:  "Nylas-Pro", "Helvetica", sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 
@@ -94,7 +95,7 @@ rgba(253,253,253,0.75) 100%);
 @headings-font-weight:    600;
 
 // ----- Font Sizes -----
-@font-size-base:          13px;
+@font-size-base:          11px;
 
 @font-size-tiny:          @font-size-base * 0.75; // 10.5px
 @font-size-smaller:       @font-size-base * 0.86; // 12px
@@ -127,11 +128,11 @@ rgba(253,253,253,0.75) 100%);
 @spacing-three-quarters:    @spacing-standard * 0.75;
 @spacing-double:            @spacing-standard * 2;
 
-@padding-base-vertical:     24px;
-@padding-base-horizontal:   32px;
+@padding-base-vertical:     16px;
+@padding-base-horizontal:   24px;
 
-@padding-large-vertical:    32px;
-@padding-large-horizontal:  40px;
+@padding-large-vertical:    24px;
+@padding-large-horizontal:  32px;
 
 @padding-small-vertical:    8px;
 @padding-small-horizontal:  16px;
@@ -207,7 +208,7 @@ rgba(253,253,253,0.75) 100%);
 @list-border:              #EAEAEA;
 @list-hover-bg:            lighten( #FFD850, 30% );
 @list-focused-color:       #5B400C;
-@list-focused-bg:          lighten( #FFD850, 20% );
+@list-focused-bg:          @component-active-color;
 @list-focused-border:      @list-focused-bg;
 @list-selected-color:      inherit;
 @list-selected-bg:         mix(@component-active-color, @list-bg, 17%);
