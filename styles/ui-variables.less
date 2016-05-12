@@ -78,7 +78,7 @@ rgba(253,253,253,0.75) 100%);
 @text-color-search-match: #fff000;
 @text-color-search-current-match: #ff8b1a;
 
-@font-family-sans-serif:  "Nylas-Pro", "Helvetica", sans-serif;
+@font-family-sans-serif:  "Montserrat", "Helvetica", sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 
@@ -94,7 +94,7 @@ rgba(253,253,253,0.75) 100%);
 @headings-font-weight:    600;
 
 // ----- Font Sizes -----
-@font-size-base:          14px;
+@font-size-base:          13px;
 
 @font-size-tiny:          @font-size-base * 0.75; // 10.5px
 @font-size-smaller:       @font-size-base * 0.86; // 12px
@@ -150,7 +150,7 @@ rgba(253,253,253,0.75) 100%);
 //============================== Shadows ===============================//
 
 @standard-shadow-color: rgba(0, 0, 0, 0.15);
-@standard-shadow: 0 1px 4px 0 @standard-shadow-color;
+@standard-shadow: 0 1px 2px 0 @standard-shadow-color;
 @standard-shadow-up: 0 -1px 4px 0 @standard-shadow-color;
 @shadow-border: 0 0.5px 0 @standard-shadow-color, 0 -0.5px 0 @standard-shadow-color,
 0.5px 0 0 @standard-shadow-color, -0.5px 0 0 @standard-shadow-color;
@@ -160,7 +160,7 @@ rgba(253,253,253,0.75) 100%);
 
 @btn-shadow: @standard-shadow;
 
-@btn-default-bg-color:    darken(@background-primary, 0.5%);
+@btn-default-bg-color:    @white;
 @btn-default-text-color:  @text-color;
 
 @btn-action-bg-color:     @color-success;
@@ -205,9 +205,9 @@ rgba(253,253,253,0.75) 100%);
 //== Thread List (e.g, `.list-group-item`, `.list-item`)
 @list-bg:                  @white;
 @list-border:              #EAEAEA;
-@list-hover-bg:            darken(@list-bg, 4%);
+@list-hover-bg:            lighten( #FFD850, 30% );
 @list-focused-color:       #5B400C;
-@list-focused-bg:          darken( #FFD850, 10% );
+@list-focused-bg:          lighten( #FFD850, 20% );
 @list-focused-border:      @list-focused-bg;
 @list-selected-color:      inherit;
 @list-selected-bg:         mix(@component-active-color, @list-bg, 17%);
