@@ -3,15 +3,28 @@
   margin-left: 20px;
 }
 
-.sheet-toolbar {
+.platform-darwin .sheet-toolbar {
   height: 58px;
-  min-height: 56px;
-  max-height: 56px;
-  padding-top: 10px;
+  min-height: 58px;
+  max-height: 58px;
+  //padding-top: 10px;
 }
 
+
+.sheet-toolbar {
+
+  .toolbar-RootSidebar,
+  .toolbar-MessageList,
+  .toolbar-ThreadList,
+  .item-container {
+    top: 10px;
+  }
+
+}
+
+
 .sheet-toolbar-container {
-  background-image: none;
+  //background-image: none;
 }
 
 .sheet-toolbar .btn-toolbar {
@@ -29,12 +42,12 @@
   background-color: @accent-primary-dark;
 }
 
-.search-bar .search-accessory.search {
+.platform-darwin .search-bar .search-accessory.search {
   left: 16px;
   top: 20px;
 }
 
-.search-bar {
+.platform-darwin .search-bar {
   width: 440px;
   margin-top: 0;
 }
