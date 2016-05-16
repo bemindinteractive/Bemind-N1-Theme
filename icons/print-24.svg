@@ -1,6 +1,9 @@
-<svg class="nc-icon glyph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g>
-<path fill="#444444" d="M23,5h-3V1c0-0.6-0.4-1-1-1H5C4.4,0,4,0.4,4,1v4H1C0.4,5,0,5.4,0,6v12c0,0.6,0.4,1,1,1h3v4c0,0.6,0.4,1,1,1
-	h14c0.6,0,1-0.4,1-1v-4h3c0.6,0,1-0.4,1-1V6C24,5.4,23.6,5,23,5z M6,2h12v3H6V2z M18,22H6v-9h12V22z"></path>
-<rect data-color="color-2" x="8" y="15" fill="#444444" width="8" height="2"></rect>
-<rect data-color="color-2" x="8" y="18" fill="#444444" width="8" height="2"></rect>
+<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)">
+<polyline data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="
+	5,6 5,1 19,1 19,6 " stroke-linejoin="round"></polyline>
+<polyline fill="none" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="5,18 1,18 1,6 
+	23,6 23,18 19,18 " stroke-linejoin="round"></polyline>
+<rect data-color="color-2" x="5" y="12" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="14" height="11" stroke-linejoin="round"></rect>
+<line data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="9" y1="16" x2="15" y2="16" stroke-linejoin="round"></line>
+<line data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="9" y1="19" x2="15" y2="19" stroke-linejoin="round"></line>
 </g></svg>
